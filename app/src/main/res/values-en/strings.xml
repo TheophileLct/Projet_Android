@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="edit_profile">Edit profile</string>
-    <string name="my_profile">My profile</string>
-    <string name="profile_city_of_birth">City of birth : Arras</string>
-    <string name="profile_status">Status : First Android training today :)</string>
-</resources>
