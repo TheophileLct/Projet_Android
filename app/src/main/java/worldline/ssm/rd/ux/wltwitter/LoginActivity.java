@@ -2,7 +2,9 @@ package worldline.ssm.rd.ux.wltwitter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -19,8 +21,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
+        findViewById(R.id.loginButton).setOnClickListener(this);
+
+        SharedPreferences prefs = getApplicationContext().getSharedPreferences("fileName", Context.MODE_PRIVATE);
+        String login = prefs.getString("username", "");
+        if(login != "")
+            startActivity(getHomeIntent(login));
+        /*
         Button loginButton = findViewById(R.id.button);
-        loginButton.setOnClickListener(this);
+        loginButton.setOnClickListener(this);*/
     }
 
     @Override
@@ -43,7 +54,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private Intent getHomeIntent(String userName){
         final Intent homeIntent = new Intent (this,WLTwitterActivity.class);
         final Bundle extras = new Bundle();
-        extras.putString(Constants.Login.EXTRA_LOGIN, userName);
+        extras.putString("username", userName);
         homeIntent.putExtras(extras);
         return homeIntent;
     }
