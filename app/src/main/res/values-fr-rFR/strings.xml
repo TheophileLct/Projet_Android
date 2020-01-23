@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="edit_profile">Editer le profil</string>
-    <string name="my_profile">Mon profil</string>
-    <string name="profile_city_of_birth">Ville de naissance : Arras</string>
-    <string name="profile_status">Statut : Premier cours d\'android aujourd\'hui !</string>
-</resources>
