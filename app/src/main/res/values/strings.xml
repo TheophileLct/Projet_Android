@@ -1,13 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">TP_1</string>
 
-    <!-- PROFIL -->
-    <string name="my_profile"> My profile</string>
-    <string name="profile_image" translatable="false">image</string>
-    <string name="profile_name" translatable="false">Jean Richard</string>
-    <string name="profile_age" translatable="false">Age : 32</string>
-    <string name="profile_city_of_birth">City of birth : Arras</string>
-    <string name="profile_status">Status : First Android training today :)</string>
-    <string name="edit_profile">Edit profile</string>
+    <string name="app_name">WLTwitter_Part1</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- MENU -->
+    <string name="action_logout">Logout</string>
 
+    <!-- LOGIN -->
+    <string name="loginHint">Your Twitter login</string>
+    <string name="passwordHint">Your Twitter password</string>
+    <string name="login">Sign in</string>
+    <string name="error_no_login">Empty login !</string>
+    <string name="error_no_password">Empty password !</string>
+    <string name="action_settings">Title!</string>
 </resources>
