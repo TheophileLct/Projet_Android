@@ -18,11 +18,15 @@
 
     <!-- TWEET LIST ITEM -->
     <string name="tweet_list_item_button_text">RT</string>
+    <string name="profile_image">Image</string>
 
     <!-- TWEET -->
     <string name="tweet_reply">reply</string>
     <string name="tweet_retweet">retweet</string>
     <string name="tweet_star">star</string>
+    <string name="username">UserName</string>
+    <string name="alias">Alias</string>
+    <string name="tweet_content">Tweet_content</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

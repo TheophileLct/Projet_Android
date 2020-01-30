@@ -24,7 +24,7 @@ public class WLTwitterLoginActivity extends AppCompatActivity
         mLoginEdit = (EditText) findViewById(R.id.loginEditText);
         mPasswordEdit =  findViewById(R.id.passwordEditText);
 
-        findViewById(R.id.LoginButton).setOnClickListener(this);
+        findViewById(R.id.ReplyButton).setOnClickListener(this);
 
         final String login = PreferenceUtils.getLogin();
         if(!TextUtils.isEmpty(login))
